@@ -1,0 +1,15 @@
+<suite name="Map" parallel="tests" thread-count="10">
+<test name="Selenium_Map_PC" preserve-order="true">
+
+<classes>
+<class name="TC01_indoor_map"/>
+<class name="TC02_search_menu"/>
+<class name="TC03_route_menu"/>
+<class name="TC04_bus_menu"/>
+<class name="TC05_subway_menu"/>
+<class name="TC06_endPage_detail"/>
+<class name="TC07_endPage_CP_Link"/>
+
+</classes>
+</test>
+</suite>
