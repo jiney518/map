@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="example.TC01_indoor_map"/>
+      <class name="example.TC02_search_menu"/>
+       <class name="example.TC03_route_menu"/>
+       <class name="example.TC04_bus_menu"/>
+       <class name="example.TC05_subway_menu"/>
+       <class name="example.TC06_endPage_detail"/>
+       <class name="example.TC07_endPage_CP_Link"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

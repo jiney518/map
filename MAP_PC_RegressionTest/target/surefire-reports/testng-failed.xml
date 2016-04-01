@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="example.TC02_search_menu">
+        <methods>
+          <include name="afterTest"/>
+          <include name="tc007"/>
+          <include name="tc008"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- example.TC02_search_menu -->
+      <class name="example.TC01_indoor_map">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="tc001"/>
+        </methods>
+      </class> <!-- example.TC01_indoor_map -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -32,10 +32,10 @@ private static WebDriver driver;
 		DesiredCapabilities dc = DesiredCapabilities.internetExplorer();
 		dc.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 		driver = new InternetExplorerDriver(dc);
-		driver.get("http://map.naver.com");
+		driver.get("http://stg.map.naver.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 		
-		System.out.println("IE ¿ÀÇÂ ¼º°ø");
+		System.out.println("IE ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 				
 	}
 
@@ -57,17 +57,17 @@ private static WebDriver driver;
 	/*	mDefault.click();
 		
 		driver.findElement(By.id("search-input")).clear();
-		driver.findElement(By.id("search-input")).sendKeys("·Ôµ¥¿ùµå¸ô");
+		driver.findElement(By.id("search-input")).sendKeys("ï¿½Ôµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		driver.findElement(By.xpath("//div[@id='header']/div[1]/fieldset/button")).click();
 		driver.findElement(By.xpath("//div[@id='panel']/div[2]/div[1]/div[2]/div[2]/ul/li[1]/div[1]/dl/dt/a/b")).click();
 		WebElement zoominBtn = driver.findElement(By.xpath("//div[@id='naver_map']/div[2]/div[2]/div[3]/a[1]"));
 		for (int i=0; i<4 ; i++){
 			zoominBtn.click();
 		}
-		System.out.println("½Ç³»Áöµµ only mode ÁøÀÔ");	
+		System.out.println("ï¿½Ç³ï¿½ï¿½ï¿½ï¿½ï¿½ only mode ï¿½ï¿½ï¿½ï¿½");	
 		
 		driver.findElement(By.xpath("//div[@id='panel']/div[2]/div[1]/div[2]/div[2]/ul/li[3]/div[1]/dl/dt/a")).click();
-		System.out.println("½Ç³»Áöµµ Á¾·á ¾È³» ¸Þ½ÃÁö ³ëÃâ");
+		System.out.println("ï¿½Ç³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½È³ï¿½ ï¿½Þ½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 		driver.findElement(By.xpath("//div[@id='simplemodal-data']/a")).click();
 		
 		bicycle.click();
@@ -76,7 +76,7 @@ private static WebDriver driver;
 			zoominBtn.click();
 		}
 		
-		System.out.println("½Ç³»Áöµµ only mode: ÀÚÀü°Å ¿É¼Ç ÇØÁ¦");
+		System.out.println("ï¿½Ç³ï¿½ï¿½ï¿½ï¿½ï¿½ only mode: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½ ï¿½ï¿½ï¿½ï¿½");
 			
 		traffic.click();
 		cadastral.click();
@@ -91,14 +91,14 @@ private static WebDriver driver;
 		mDefault.click();*/
 		
 		driver.findElement(By.id("search-input")).clear();
-		driver.findElement(By.id("search-input")).sendKeys("ÁÖ¾È¿ªÁöÇÏ»ó°¡");
+		driver.findElement(By.id("search-input")).sendKeys("ï¿½Ö¾È¿ï¿½ï¿½ï¿½ï¿½Ï»ï¿½");
 		driver.findElement(By.xpath("//div[@id='header']/div[1]/fieldset/button")).click();
 		driver.findElement(By.xpath("//div[@id='panel']/div[2]/div[1]/div[2]/div[2]/ul/li[1]/div[1]/dl/dt/a")).click();
 		driver.findElement(By.xpath("//div[@id='naver_map']/div[2]/div[7]/a")).click();
-		System.out.println("ÁÖ¾È¿ªÁöÇÏ»ó°¡- Ãþº°¾È³» Å¬¸¯");
+		System.out.println("ï¿½Ö¾È¿ï¿½ï¿½ï¿½ï¿½Ï»ï¿½- ï¿½ï¿½ï¿½ï¿½ï¿½È³ï¿½ Å¬ï¿½ï¿½");
 		
 		Thread.sleep(2000);
-		//½Ç³»ºä ¹öÆ° Å¬¸¯ 
+		//ï¿½Ç³ï¿½ï¿½ï¿½ ï¿½ï¿½Æ° Å¬ï¿½ï¿½ 
 		driver.findElement(By.xpath("//div[@id='aside']/div[5]/div/div[1]/div[3]/div[1]/ul[1]/li[5]/div[1]/div[2]/a")).click();
 		driver.findElement(By.xpath("//div[@id='snb_view']/a")).click();
 		driver.findElement(By.xpath("//div[@id='naver_map']/div[2]/div[5]/div[1]/a[1]")).click();
@@ -112,24 +112,24 @@ private static WebDriver driver;
 		
 		
 		driver.findElement(By.id("search-input")).clear();
-		driver.findElement(By.id("search-input")).sendKeys("¾ÆÄí¾Æ¸®¿ò ÄÚ¿¢½º");
+		driver.findElement(By.id("search-input")).sendKeys("ï¿½ï¿½ï¿½ï¿½Æ¸ï¿½ï¿½ï¿½ ï¿½Ú¿ï¿½ï¿½ï¿½");
 		driver.findElement(By.xpath("//div[@id='header']/div[1]/fieldset/button")).click();
 		driver.findElement(By.xpath("//div[@id='panel']/div[2]/div[1]/div[2]/div[2]/ul/li[1]/div[1]/dl/dt/a")).click();
 		
 		Assert.assertTrue(driver.findElement(By.xpath("//div[@id='naver_map']/div[2]/div[7]/a")).isEnabled());
-		System.out.println("ÄÚ¿¢½º ¾ÆÄí¾Æ¸®¿ò ½Ç³»Áöµµ È°¼ºÈ­ OK");
+		System.out.println("ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ¸ï¿½ï¿½ï¿½ ï¿½Ç³ï¿½ï¿½ï¿½ï¿½ï¿½ È°ï¿½ï¿½È­ OK");
 		
 		zoominBtn.click();
 		zoominBtn.click();
 		
 		driver.findElement(By.id("search-input")).clear();
-		driver.findElement(By.id("search-input")).sendKeys("Ä²°ñ Çö´ë¹éÈ­Á¡ ¹«¿ª¼¾ÅÍÁ¡");
+		driver.findElement(By.id("search-input")).sendKeys("Ä²ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		driver.findElement(By.xpath("//div[@id='header']/div[1]/fieldset/button")).click();
 		
 		driver.findElement(By.xpath("//div[@id='naver_map']/div[1]/div[10]/div[3]/div/div/div[1]/div[2]/div[2]/a")).click();
 		
 		Thread.sleep(3000);	
-		//¾÷Ã¼ »ó¼¼ ÆäÀÌÁö ¿ÀÇÂ 	
+		//ï¿½ï¿½Ã¼ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 	
 		for(String winHandle : driver.getWindowHandles()){
 			driver.switchTo().window(winHandle);
 			driver.manage().window().maximize();
@@ -138,7 +138,7 @@ private static WebDriver driver;
 		Thread.sleep(3000);	
 		
 		driver.findElement(By.xpath("//div[@id='_title']/h1")).click();
-		//½Ç³»ºä ¹öÆ° Å¬¸¯ 
+		//ï¿½Ç³ï¿½ï¿½ï¿½ ï¿½ï¿½Æ° Å¬ï¿½ï¿½ 
 		driver.findElement(By.xpath("//div[@id='_title']/div/div[1]/ul/li[1]/a")).click();
 		
 		if(driver.findElement(By.xpath("//div[@id='simplemodal-data']")).isEnabled()){
@@ -148,12 +148,12 @@ private static WebDriver driver;
 		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("//div[@id='naver_map']/div[2]/div[8]/div[1]/a[9]")).click();
-		System.out.println("¹Ì´Ï¸Ê Ãþº° ÀÌµ¿ OK");
+		System.out.println("ï¿½Ì´Ï¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ OK");
 	
 	
 }
 	
-	//¿ìÅ¬¸¯ action
+	//ï¿½ï¿½Å¬ï¿½ï¿½ action
 	public void rightClick(WebElement element) {
 		try {
 			Actions action = new Actions(driver).contextClick(element);
